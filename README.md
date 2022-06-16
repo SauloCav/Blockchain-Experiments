@@ -44,9 +44,7 @@ No Bitcoin, a dificuldade é projetada para aumentar ou diminuir a cada 2.016 bl
 
 # Outras Características Importantes:
 <strong>Diferenças entre Bitcoin e BitcoinCash:</strong></br>
-Como observado, a principal diferença entre Bitcoin e Bitcoin Cash é o tamanho do bloco. Por causa desse ajuste, o Bitcoin Cash pode ter transações mais rápidas e menos caras. Uma transação Bitcoin custa em média $ 59, enquanto o Bitcoin Cash custa menos de um centavo.
-
-A desvantagem de processar tudo mais rapidamente é que é potencialmente menos seguro que o Bitcoin. Há menos mineradores necessários para processar e confirmar transações, o que pode facilitar o comprometimento da segurança do Bitcoin Cash.
+Como observado, a principal diferença entre Bitcoin e Bitcoin Cash é o tamanho do bloco. Por causa desse ajuste, o Bitcoin Cash pode ter transações mais rápidas e menos caras. Uma transação Bitcoin custa em média $ 59, enquanto o Bitcoin Cash custa menos de um centavo. A desvantagem de processar tudo mais rapidamente é que é potencialmente menos seguro que o Bitcoin. Há menos mineradores necessários para processar e confirmar transações, o que pode facilitar o comprometimento da segurança do Bitcoin Cash. </br>
 
 <strong>Vantagens e Desvantagens:</strong></br>
 Transações mais rápidas e menos caras. Com um custo de transação de menos de um centavo e o potencial de processar mais de 100 transações por segundo, o Bitcoin Cash pode ser uma plataforma de pagamento viável. Ainda assim, a rede Visa processa 2.000 transações por segundo, então o Bitcoin Cash ainda tem um caminho a percorrer.
