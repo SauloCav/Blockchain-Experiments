@@ -72,4 +72,7 @@ A dificuldade é uma medida de quão difícil é encontrar um hash abaixo de um 
 
 No Bitcoin, a dificuldade é projetada para aumentar ou diminuir a cada 2.016 blocos. Isso leva em torno de duas semanas. Significa que um bloco deve ser gerado, em média, a cada 10 minutos. Se forem gerados em 2 semanas mais blocos que o esperado, a dificuldade é aumentada. Caso seja gerado menos que o esperado a dificuldade é então diminuída. 
 
+# Outras Características Importantes:
+
+
 
