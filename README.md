@@ -22,4 +22,32 @@ O objetivo dos algoritmos de prova de trabalho não é provar que determinado tr
 
 O “trabalho” na prova de trabalho é fundamental: o sistema exige que os mineradores compitam entre si para serem os primeiros a resolver quebra-cabeças matemáticos arbitrários para impedir que alguém jogue no sistema. O vencedor desta corrida é selecionado para adicionar o mais novo lote de dados ou transações ao blockchain. <br/>
 
+Os mineradores vencedores só recebem sua recompensa de nova criptomoeda depois que outros participantes da rede verificarem se os dados adicionados à cadeia estão corretos e válidos. <br/>
+
+A primeira criptomoeda, Bitcoin, foi criada por Satoshi Nakamoto em 2008. Nakamoto publicou um famoso white paper descrevendo uma moeda digital baseada em protocolos de prova de trabalho que permitiriam transações seguras ponto a ponto sem o envolvimento de uma autoridade centralizada. <br/>
+
+Um dos problemas que impediram o desenvolvimento de uma moeda digital eficaz no passado foi chamado de problema do gasto duplo. Criptomoeda são apenas dados, portanto, é preciso haver um mecanismo para evitar que os usuários gastem as mesmas unidades em lugares diferentes antes que o sistema possa registrar as transações. <br/>
+
+Embora você tenha dificuldade em gastar a mesma nota de dólar em duas compras separadas, qualquer pessoa que tenha duplicado um arquivo de computador copiando e colando provavelmente pode imaginar como você poderia gastar dinheiro digital duas vezes – até dez vezes ou mais. O mecanismo de consenso de Nakamoto resolveu o problema do gasto duplo. Ao incentivar os mineradores a verificar a integridade de novas transações de criptografia antes de adicioná-las ao livro-razão distribuído que é blockchain, a prova de trabalho ajuda a evitar gastos duplos. <br/>
+
+Considere uma conta bancária convencional. Se você depositar um cheque em sua conta poupança, como você sabe que será creditado pelo valor exato? Como o emissor do cheque confia que só será debitado o valor que escreveu no cheque? O valor de um banco é que todas as partes de uma transação confiam no banco para movimentar dinheiro com precisão. <br/>
+
+De acordo com o New York Times, em 2009 você poderia minerar um Bitcoin usando um computador desktop comum e uma quantidade insignificante de eletricidade. Mas em 2021, você precisaria consumir uma quantidade de eletricidade igual à que uma casa americana padrão usaria em nove anos para minerar um Bitcoin. <br/>
+
+Um dos recursos mais atraentes para os investidores em criptomoedas é a descentralização. Graças às intensas demandas computacionais e energéticas da prova de trabalho, no entanto, as operações de mineração tornaram-se centralizadas em um pequeno número de grandes equipamentos. Isso poderia levar algumas entidades a controlar a maioria das operações de criptomoeda. <br/>
+
+# Proof of Work:
+
+Uma questão fundamental na blockchain é: quem (qual nó) pode propor um novo bloco? Sabemos que a blockchain pública é uma rede aberta, formada por nós desconhecidos e sem uma autoridade central. Assim, é necessário a existência de um mecanismo que selecione quem tem o direito de propor um bloco em um dado momento.Isto é: um mecanismo capaz de manter o consenso na rede. Um mecanismo de consenso é um processo de acordo entre nós, mutuamente suspeitos, sobre uma mesma mensagem ou estado da blockchain. <br/>
+
+Para garantir que todos os full nodes da rede tenham a mesma cadeia de blocos, apenas um nó deve propor um bloco por vez. Em seguida, todos os outros nós devem validar as transações do bloco e adicioná-lo às suas blockchains se concordarem que as transações é válidas. <br/>
+
+Mecanismos de consenso na blockchain vêm da teoria dos jogos. Seu sistema deve ser projetado de tal forma que os nós obtenham o maior benefício se eles seguirem as regras. Um dos aspectos para garantir que os nós se comportem honestamente é recompensar o comportamento honesto e punir por atividades fraudulentas Atualmente, os dois principais mecanismos de consenso usados em blockchains são Proof of Work (PoW) e Proof of Stake (PoS). <br/>
+
+Há diferentes formas de chegar a um consenso entre os nós, dependendo do caso de uso. O mecanismo deve ser capaz de manter o consenso e a rede funcionando oferecendo algum incentivo aos nós para a blockchain ser autossustentável.
+
+A Prova de Trabalho (Proof of Work) consiste em o usuário provar que gastou algum tempo para encontrar uma resposta que satisfaça um desafio computacional proposto pelo protocolo.
+
+
+
 
