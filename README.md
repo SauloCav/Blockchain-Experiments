@@ -64,6 +64,10 @@ Claramente, a dificuldade de encontrar um hash que satisfaça o desafio aumenta 
 
 O processo de mineração acontece de forma independente e simultaneamente por cada um dos full nodes. Note que, todos os mineradores da rede competem entre si para encontrar uma solução válida. O primeiro que encontrar tem o direito de propor o novo bloco. <br/>
 
+Quando as transações são ordenadas e gravadas em um novo bloco, o hash do cabeçalho do bloco precisa ser calculado de modo a ser menor que o alvo da dificuldade. A dificuldade do trabalho deve ser ajustável para que haja um controle sobre a rapidez com que os blocos podem ser gerados.
 
+A dificuldade é uma medida de quão difícil é encontrar um hash abaixo de um determinado alvo. A dificuldade responde à pergunta: “quantas vezes mais difícil é minerar um bloco agora, comparado com o quão difícil era minerar o bloco Gênesis?”. A dificuldade tem uma relação próxima com o alvo, mas não é a mesma coisa. Em vez disso, tem uma relação inversa, onde uma dificuldade maior implica um valor alvo menor.
+
+No Bitcoin, a dificuldade é projetada para aumentar ou diminuir a cada 2.016 blocos. Isso leva em torno de duas semanas. Significa que um bloco deve ser gerado, em média, a cada 10 minutos. Se forem gerados em 2 semanas mais blocos que o esperado, a dificuldade é aumentada. Caso seja gerado menos que o esperado a dificuldade é então diminuída. 
 
 
