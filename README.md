@@ -4,13 +4,9 @@
 
 Bitcoin Cash é uma criptomoeda criada no dia 1 de agosto de 2017, em um processo de hard fork, separação, da Bitcoin. Trata-se da mais bem-sucedida bifurcação do bitcoin. Durante o processo de criação, todos os usuários de Bitcoin tiveram suas reservas privadas duplicadas, sendo as duplicatas nomeadas de "Bitcoin Cash", uma criptomoeda aparte do Bitcoin original, com propriedades técnicas distintas. É regida por um protocolo alternativo que aumenta a capacidade de transação em comparação ao Bitcoin "clássico", sendo este o ponto principal do fork. Isto será permitido graças ao tamanho de bloco diferenciado, de 8 MB. Este bloco, maior, em comparação ao original, visa auxiliar na correção do problema de escalabilidade, uma solução alternativa àquela adotada pelo Bitcoin, o SegWit (Segregated Witness), assim chamada a otimização de código polêmica que será ativada na blockchain do Bitcoin principal. Em 19 de dezembro de 2017, a Coinbase passou a permitir o depósito de Bitcoin Cash, o que permitiu que os usuários que possuiam Bitcoin na plataforma no momento do Hard Fork obtivessem uma quantia equivalente em Bitcoin Cash.<br/>
 
-Existem várias semelhanças entre Bitcoin e Bitcoin Cash. Ambos usam o mecanismo de consenso Proof of Work (PoW) para minerar novas moedas. Eles também compartilham os serviços da Bitmain, a maior mineradora de criptomoedas do mundo. O fornecimento de Bitcoin Cash é limitado a 21 milhões, o mesmo valor do Bitcoin. O Bitcoin Cash também começou usando o mesmo algoritmo de dificuldade de mineração - conhecido tecnicamente como Ajuste de Dificuldade de Emergência (EDA) - que ajusta a dificuldade a cada 2016 blocos ou aproximadamente a cada dois semanas.<br/>
+# Proof of Work:
 
-A nível técnico, o Bitcoin Cash funciona exatamente da mesma forma que o Bitcoin. Tanto o Bitcoin Cash quanto o Bitcoin têm um limite rígido de 21 milhões de ativos, usam nós para validar transações e usam um algoritmo de consenso PoW. PoW significa que os mineradores validam as transações utilizando o poder do computador e são recompensados em BCH por suas contribuições. <br/>
-
-Os mineradores aproveitaram essa semelhança alternando sua atividade de mineração entre Bitcoin e Bitcoin Cash. Embora fosse lucrativo para os mineradores, a prática foi prejudicial para o aumento da oferta de Bitcoin Cash nos mercados. Portanto, o Bitcoin Cash revisou seu algoritmo EDA para facilitar a geração da criptomoeda pelos mineradores. <br/>
-
-As criptomoedas não possuem gatekeepers centralizados para verificar a precisão de novas transações e dados que são adicionados ao blockchain. Em vez disso, eles contam com uma rede distribuída de participantes para validar as transações recebidas e adicioná-las como novos blocos na cadeia. <br/>
+Existem várias semelhanças entre Bitcoin e Bitcoin Cash. Ambos usam o mecanismo de consenso Proof of Work (PoW) para minerar novas moedas. Eles também compartilham os serviços da Bitmain, a maior mineradora de criptomoedas do mundo. O fornecimento de Bitcoin Cash é limitado a 21 milhões, o mesmo valor do Bitcoin. O Bitcoin Cash também começou usando o mesmo algoritmo de dificuldade de mineração - conhecido tecnicamente como Ajuste de Dificuldade de Emergência (EDA) - que ajusta a dificuldade a cada 2016 blocos ou aproximadamente a cada dois semanas. PoW significa que os mineradores validam as transações utilizando o poder do computador e são recompensados em BCH por suas contribuições. <br/>
 
 A prova de trabalho é um mecanismo de consenso para escolher quais desses participantes da rede – chamados de mineradores – têm permissão para lidar com a lucrativa tarefa de verificar novos dados. É lucrativo porque os mineradores são recompensados com novas criptomoedas quando validam com precisão os novos dados e não enganam o sistema. <br/>
 
@@ -25,20 +21,6 @@ O objetivo dos algoritmos de prova de trabalho não é provar que determinado tr
 O “trabalho” na prova de trabalho é fundamental: o sistema exige que os mineradores compitam entre si para serem os primeiros a resolver quebra-cabeças matemáticos arbitrários para impedir que alguém jogue no sistema. O vencedor desta corrida é selecionado para adicionar o mais novo lote de dados ou transações ao blockchain. <br/>
 
 Os mineradores vencedores só recebem sua recompensa de nova criptomoeda depois que outros participantes da rede verificarem se os dados adicionados à cadeia estão corretos e válidos. <br/>
-
-A primeira criptomoeda, Bitcoin, foi criada por Satoshi Nakamoto em 2008. Nakamoto publicou um famoso white paper descrevendo uma moeda digital baseada em protocolos de prova de trabalho que permitiriam transações seguras ponto a ponto sem o envolvimento de uma autoridade centralizada. <br/>
-
-Um dos problemas que impediram o desenvolvimento de uma moeda digital eficaz no passado foi chamado de problema do gasto duplo. Criptomoeda são apenas dados, portanto, é preciso haver um mecanismo para evitar que os usuários gastem as mesmas unidades em lugares diferentes antes que o sistema possa registrar as transações. <br/>
-
-Embora você tenha dificuldade em gastar a mesma nota de dólar em duas compras separadas, qualquer pessoa que tenha duplicado um arquivo de computador copiando e colando provavelmente pode imaginar como você poderia gastar dinheiro digital duas vezes – até dez vezes ou mais. O mecanismo de consenso de Nakamoto resolveu o problema do gasto duplo. Ao incentivar os mineradores a verificar a integridade de novas transações de criptografia antes de adicioná-las ao livro-razão distribuído que é blockchain, a prova de trabalho ajuda a evitar gastos duplos. <br/>
-
-Considere uma conta bancária convencional. Se você depositar um cheque em sua conta poupança, como você sabe que será creditado pelo valor exato? Como o emissor do cheque confia que só será debitado o valor que escreveu no cheque? O valor de um banco é que todas as partes de uma transação confiam no banco para movimentar dinheiro com precisão. <br/>
-
-De acordo com o New York Times, em 2009 você poderia minerar um Bitcoin usando um computador desktop comum e uma quantidade insignificante de eletricidade. Mas em 2021, você precisaria consumir uma quantidade de eletricidade igual à que uma casa americana padrão usaria em nove anos para minerar um Bitcoin. <br/>
-
-Um dos recursos mais atraentes para os investidores em criptomoedas é a descentralização. Graças às intensas demandas computacionais e energéticas da prova de trabalho, no entanto, as operações de mineração tornaram-se centralizadas em um pequeno número de grandes equipamentos. Isso poderia levar algumas entidades a controlar a maioria das operações de criptomoeda. <br/>
-
-# Proof of Work:
 
 Uma questão fundamental na blockchain é: quem (qual nó) pode propor um novo bloco? Sabemos que a blockchain pública é uma rede aberta, formada por nós desconhecidos e sem uma autoridade central. Assim, é necessário a existência de um mecanismo que selecione quem tem o direito de propor um bloco em um dado momento.Isto é: um mecanismo capaz de manter o consenso na rede. Um mecanismo de consenso é um processo de acordo entre nós, mutuamente suspeitos, sobre uma mesma mensagem ou estado da blockchain. <br/>
 
@@ -88,6 +70,8 @@ Taxa de adoção relativamente baixa. “Embora a maior parte do debate tenha se
 Segurança mais fraca. O Bitcoin Cash processa as transações mais rapidamente e a um custo menor do que o Bitcoin porque requer menos poder de mineração para verificar novos blocos. Isso torna o sistema menos seguro que o Bitcoin.
 Problemas de marca. Após o fork, houve uma batalha para ver qual moeda se tornaria mais popular. O Bitcoin foi o vencedor claro, o que torna difícil para o Bitcoin Cash se distinguir, especialmente porque eles compartilham um nome tão semelhante.
 Impacto ambiental. O Bitcoin Cash ainda usa um sistema de prova de trabalho blockchain, onde os mineradores devem executar computadores para resolver equações criptográficas para processar transações, algo que consome uma energia considerável. Embora o Bitcoin Cash use menos eletricidade que o Bitcoin, esse sistema ainda tem um alto custo ambiental.
+De acordo com o New York Times, em 2009 você poderia minerar um Bitcoin usando um computador desktop comum e uma quantidade insignificante de eletricidade. Mas em 2021, você precisaria consumir uma quantidade de eletricidade igual à que uma casa americana padrão usaria em nove anos para minerar um Bitcoin.
+Um dos recursos mais atraentes para os investidores em criptomoedas é a descentralização. Graças às intensas demandas computacionais e energéticas da prova de trabalho, no entanto, as operações de mineração tornaram-se centralizadas em um pequeno número de grandes equipamentos. Isso poderia levar algumas entidades a controlar a maioria das operações de criptomoeda.
 
 <strong>Avaliações e Uso:</strong></br>
 “O dinheiro Bitcoin seria melhor para algo como uma xícara de café, enquanto uma compra maior, como um carro ou uma casa, pode garantir uma criptomoeda mais lenta e segura como o Bitcoin”, disse Daniel R. Hill, presidente da Hill Wealth Strategies em Virgínia.
