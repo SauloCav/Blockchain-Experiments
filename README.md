@@ -44,9 +44,25 @@ Para garantir que todos os full nodes da rede tenham a mesma cadeia de blocos, a
 
 Mecanismos de consenso na blockchain vêm da teoria dos jogos. Seu sistema deve ser projetado de tal forma que os nós obtenham o maior benefício se eles seguirem as regras. Um dos aspectos para garantir que os nós se comportem honestamente é recompensar o comportamento honesto e punir por atividades fraudulentas Atualmente, os dois principais mecanismos de consenso usados em blockchains são Proof of Work (PoW) e Proof of Stake (PoS). <br/>
 
-Há diferentes formas de chegar a um consenso entre os nós, dependendo do caso de uso. O mecanismo deve ser capaz de manter o consenso e a rede funcionando oferecendo algum incentivo aos nós para a blockchain ser autossustentável.
+Há diferentes formas de chegar a um consenso entre os nós, dependendo do caso de uso. O mecanismo deve ser capaz de manter o consenso e a rede funcionando oferecendo algum incentivo aos nós para a blockchain ser autossustentável. <br/>
 
-A Prova de Trabalho (Proof of Work) consiste em o usuário provar que gastou algum tempo para encontrar uma resposta que satisfaça um desafio computacional proposto pelo protocolo.
+A Prova de Trabalho (Proof of Work) consiste em o usuário provar que gastou algum tempo para encontrar uma resposta que satisfaça um desafio computacional proposto pelo protocolo. <br/>
+
+PoW é baseado em dois princípios:
+- A prova dever ser difícil de ser produzida;
+- Mas deve ser fácil de ser verificada. <br/>
+
+A prova deve ser difícil e trabalhosa de se produzir, mas não impossível. Neste contexto o termo “difícil” deve ser entendido como uma solução algo que exige um grande poder computacional e alguns minutos de cálculo. Consequentemente, é financeiramente caro, devido a energia elétrica gasta durante o cálculo da solução. A verificação da solução deve ser rápida e fácil de ser executada pelos demais nós. <br/>
+
+O processo de gerar um novo bloco é chamado de mineração e os nós que executam esse processo são chamados de mineradores. Cada nó minerador inicia esse processo ordenando, com base no timestamp, as transações que recebeu. Em seguida, o nó grava as transações em um bloco (um tipo de rascunho do bloco a ser proposto), sobre o qual será calculado a PoW. <br/>
+
+A PoW é calculada aplicando-se uma função hash, SHA256, ao cabeçalho do bloco. O cabeçalho do bloco possui, entre outros campos, um nonce (número usado apenas uma vez). Os mineradores devem modificar o nonce frequentemente para obter um hash que satisfaça o critério de dificuldade (ou valor alvo). Assim, por definição, a saída desta função é um número entre 0 e 2^256. <br/>
+
+A mudança sistemática de nonce pelo minerador durante o cálculo da PoW visa encontrar uma colisão de hash parcial. Ou seja, o minerador deve encontrar um valor hash que seja igual ou menor que o valor alvo. <br/>
+
+Claramente, a dificuldade de encontrar um hash que satisfaça o desafio aumenta a medida que a quantidade de zeros aumenta no inicio do hash e diminui o espaço de possibilidades. Portanto, encontrar um hash que satisfaça essa colisão parcial, depende essencialmente do poder computacional do nó minerador. Quando um nó encontra uma solução válida, ele propaga o bloco para os outros nós e todos devem confirmar mutuamente a validade do hash encontrado. Se o bloco for validado, diz-se que o bloco foi minerado e os demais nós anexam esse novo bloco a suas próprias blockchains armazenadas localmente. <br/>
+
+O processo de mineração acontece de forma independente e simultaneamente por cada um dos full nodes. Note que, todos os mineradores da rede competem entre si para encontrar uma solução válida. O primeiro que encontrar tem o direito de propor o novo bloco. <br/>
 
 
 
