@@ -6,6 +6,8 @@ Bitcoin Cash é uma criptomoeda criada no dia 1 de agosto de 2017, em um process
 
 Existem várias semelhanças entre Bitcoin e Bitcoin Cash. Ambos usam o mecanismo de consenso Proof of Work (PoW) para minerar novas moedas. Eles também compartilham os serviços da Bitmain, a maior mineradora de criptomoedas do mundo. O fornecimento de Bitcoin Cash é limitado a 21 milhões, o mesmo valor do Bitcoin. O Bitcoin Cash também começou usando o mesmo algoritmo de dificuldade de mineração - conhecido tecnicamente como Ajuste de Dificuldade de Emergência (EDA) - que ajusta a dificuldade a cada 2016 blocos ou aproximadamente a cada dois semanas.<br/>
 
+A nível técnico, o Bitcoin Cash funciona exatamente da mesma forma que o Bitcoin. Tanto o Bitcoin Cash quanto o Bitcoin têm um limite rígido de 21 milhões de ativos, usam nós para validar transações e usam um algoritmo de consenso PoW. PoW significa que os mineradores validam as transações utilizando o poder do computador e são recompensados em BCH por suas contribuições. <br/>
+
 Os mineradores aproveitaram essa semelhança alternando sua atividade de mineração entre Bitcoin e Bitcoin Cash. Embora fosse lucrativo para os mineradores, a prática foi prejudicial para o aumento da oferta de Bitcoin Cash nos mercados. Portanto, o Bitcoin Cash revisou seu algoritmo EDA para facilitar a geração da criptomoeda pelos mineradores. <br/>
 
 As criptomoedas não possuem gatekeepers centralizados para verificar a precisão de novas transações e dados que são adicionados ao blockchain. Em vez disso, eles contam com uma rede distribuída de participantes para validar as transações recebidas e adicioná-las como novos blocos na cadeia. <br/>
