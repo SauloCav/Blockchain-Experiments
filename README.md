@@ -73,6 +73,30 @@ A dificuldade é uma medida de quão difícil é encontrar um hash abaixo de um 
 No Bitcoin, a dificuldade é projetada para aumentar ou diminuir a cada 2.016 blocos. Isso leva em torno de duas semanas. Significa que um bloco deve ser gerado, em média, a cada 10 minutos. Se forem gerados em 2 semanas mais blocos que o esperado, a dificuldade é aumentada. Caso seja gerado menos que o esperado a dificuldade é então diminuída. 
 
 # Outras Características Importantes:
+<strong>Diferenças entre Bitcoin e BitcoinCash:</strong></br>
+Como observado, a principal diferença entre Bitcoin e Bitcoin Cash é o tamanho do bloco. Por causa desse ajuste, o Bitcoin Cash pode ter transações mais rápidas e menos caras. Uma transação Bitcoin custa em média $ 59, enquanto o Bitcoin Cash custa menos de um centavo.
 
+A desvantagem de processar tudo mais rapidamente é que é potencialmente menos seguro que o Bitcoin. Há menos mineradores necessários para processar e confirmar transações, o que pode facilitar o comprometimento da segurança do Bitcoin Cash.
 
+<strong>Vantagens e Desvantagens:</strong></br>
+Transações mais rápidas e menos caras. Com um custo de transação de menos de um centavo e o potencial de processar mais de 100 transações por segundo, o Bitcoin Cash pode ser uma plataforma de pagamento viável. Ainda assim, a rede Visa processa 2.000 transações por segundo, então o Bitcoin Cash ainda tem um caminho a percorrer.
+Mais escalável que o Bitcoin. Os blocos maiores do Bitcoin Cash permitem um blockchain com maior escalabilidade, resultando em taxas mais baixas para os usuários e, portanto, tornando-o mais transacionável.
+Dinheiro descentralizado. Para aqueles preocupados com muito controle centralizado no sistema financeiro de bancos e governos centrais, o Bitcoin Cash oferece um sistema semelhante a uma moeda que é descentralizado e não controlado por nenhuma entidade.
+Acessibilidade. Das milhares de criptomoedas existentes, o Bitcoin Cash é um dos mais populares e pode ser comprado na maioria das principais exchanges, ao contrário de concorrentes menos conhecidos. O preço do BCH/USD é de apenas US$ 370 por moeda, por isso também é mais acessível do que tentar comprar um único Bitcoin.
 
+Taxa de adoção relativamente baixa. “Embora a maior parte do debate tenha se concentrado em debates tecnológicos sobre tempos de processamento e segurança, acho que há um grande fator negligenciado, mas talvez o mais importante com tecnologias emergentes: adoção”, disse Russell Star, chefe de mercados de capitais da DeFi Technologies. “O sucesso de qualquer tipo de rede, moeda ou tecnologia depende dos usuários que a utilizam.” Com menos pessoas usando Bitcoin Cash do que Bitcoin, ele pode ter dificuldades para crescer como um investimento aceito ou meio de troca.
+Segurança mais fraca. O Bitcoin Cash processa as transações mais rapidamente e a um custo menor do que o Bitcoin porque requer menos poder de mineração para verificar novos blocos. Isso torna o sistema menos seguro que o Bitcoin.
+Problemas de marca. Após o fork, houve uma batalha para ver qual moeda se tornaria mais popular. O Bitcoin foi o vencedor claro, o que torna difícil para o Bitcoin Cash se distinguir, especialmente porque eles compartilham um nome tão semelhante.
+Impacto ambiental. O Bitcoin Cash ainda usa um sistema de prova de trabalho blockchain, onde os mineradores devem executar computadores para resolver equações criptográficas para processar transações, algo que consome uma energia considerável. Embora o Bitcoin Cash use menos eletricidade que o Bitcoin, esse sistema ainda tem um alto custo ambiental.
+
+<strong>Avaliações e Uso:</strong></br>
+“O dinheiro Bitcoin seria melhor para algo como uma xícara de café, enquanto uma compra maior, como um carro ou uma casa, pode garantir uma criptomoeda mais lenta e segura como o Bitcoin”, disse Daniel R. Hill, presidente da Hill Wealth Strategies em Virgínia.
+
+<strong>BitcoinCash e o Mercado:</strong></br>
+Outra diferença é o tamanho do mercado. Até o momento, o Bitcoin Cash tem uma capitalização de mercado total de cerca de US$ 7,1 bilhões. Esta é uma fração do valor de mercado de US$ 881 bilhões do Bitcoin. "Forbes 17 maio".
+
+Whether you should buy Bitcoin Cash or Bitcoin depends on whether you are looking for a long-term investment or something to use for transactions.
+“When measured in BTC, the price of BCH has fallen steadily since its inception. It stands to reason that the original Bitcoin should serve as a safer investment,” said Gebbing.
+“If choosing a blockchain to transact with, though, BCH is accepted in many of the same places that accept BTC, and can be used for near-zero fees due to the larger block size and the lesser utilization of that chain,” Gebbing added.
+Like with any crypto investment, Star warns you should be careful. “Anyone considering investing in Bitcoin or Bitcoin Cash should consider whether they can stomach a volatile asset class, which is what crypto is.” He also noted that those looking to learn more about crypto and emerging technologies could benefit by broadening their horizon beyond the most popular options like Bitcoin and Ethereum.
+While the concept behind Bitcoin Cash has some potential, it still hasn’t reached its lofty goal of replacing the original Bitcoin. If it starts taking off as a more accepted medium of exchange, then it might give its older, bigger brother a tougher run.
