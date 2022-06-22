@@ -14,8 +14,6 @@ A prova de trabalho é um mecanismo de consenso para escolher quais desses parti
 
 “Proof of work é um algoritmo de software usado pelo Bitcoin e outros blockchains para garantir que os blocos sejam considerados válidos apenas se exigirem uma certa quantidade de poder computacional para serem produzidos”, diz Amaury Sechet, fundador da criptomoeda eCash. “É um mecanismo de consenso que permite que entidades anônimas em redes descentralizadas confiem umas nas outras.” Os mineradores vencedores só recebem sua recompensa de nova criptomoeda depois que outros participantes da rede verificarem se os dados adicionados à cadeia estão corretos e válidos. <br/>
 
-Para garantir que todos os full nodes da rede tenham a mesma cadeia de blocos, apenas um nó deve propor um bloco por vez. Em seguida, todos os outros nós devem validar as transações do bloco e adicioná-lo às suas blockchains se concordarem que as transações é válidas. <br/>
-
 Mecanismos de consenso na blockchain vêm da teoria dos jogos. Seu sistema deve ser projetado de tal forma que os nós obtenham o maior benefício se eles seguirem as regras. Um dos aspectos para garantir que os nós se comportem honestamente é recompensar o comportamento honesto e punir por atividades fraudulentas Atualmente. Há diferentes formas de chegar a um consenso entre os nós, dependendo do caso de uso. O mecanismo deve ser capaz de manter o consenso e a rede funcionando oferecendo algum incentivo aos nós para a blockchain ser autossustentável. <br/>
 
 A Prova de Trabalho (Proof of Work) consiste em o usuário provar que gastou algum tempo para encontrar uma resposta que satisfaça um desafio computacional proposto pelo protocolo. <br/>
@@ -46,20 +44,15 @@ Para manter o tempo de geração do bloco igual a dez minutos em média, tanto o
 
 Os ajustes da EDA causaram instabilidades na dificuldade de mineração do sistema Bitcoin Cash, resultando no Bitcoin Cash milhares de blocos à frente do Bitcoin. Para resolver o problema com a estabilidade, foi implementada uma alteração do Bitcoin Cash DAA e o EDA cancelado. A alteração entrou em vigor em 13 de novembro de 2017. Após a alteração, o Bitcoin Cash DAA ajusta a dificuldade de mineração após cada bloco. Para calcular a dificuldade de um novo bloco, o Bitcoin Cash DAA usa uma janela móvel dos últimos 144 blocos.[34]
 
-Um grupo de pesquisadores demonstrou que, em junho de 2019, o Bitcoin DAA não consegue gerar novos blocos a uma taxa constante, desde que o fornecimento de hash seja elástico. Em contraste com isso, o grupo demonstrou que o Bitcoin Cash DAA é estável mesmo quando o preço da criptomoeda é volátil e o fornecimento de poder de hash é altamente elástico.
-
 # Outras Características Importantes:
 <strong>Diferenças entre Bitcoin e BitcoinCash:</strong></br>
 Com o tempo, o número de diferenças entre Bitcoin e Bitcoin Cash continuou crescendo à medida que os desenvolvedores que trabalhavam em cada rede tinham objetivos diferentes em mente. A diferença entre as duas criptomoedas tornou-se tão grande que agora são vistas como ativos completamente diferentes na comunidade.
 Como observado, a principal diferença entre Bitcoin e Bitcoin Cash é o tamanho do bloco. Por causa desse ajuste, o Bitcoin Cash pode ter transações mais rápidas e menos caras. Uma transação Bitcoin custa em média $ 59, enquanto o Bitcoin Cash custa menos de um centavo. A desvantagem de processar tudo mais rapidamente é que é potencialmente menos seguro que o Bitcoin. Há menos mineradores necessários para processar e confirmar transações, o que pode facilitar o comprometimento da segurança do Bitcoin Cash.
 A principal diferença está relacionada ao tamanho do bloco de cada rede. Enquanto o Bitcoin mantém seu tamanho de bloco de 1 MB, com o Bitcoin Cash, os tamanhos de bloco aumentaram para 32 MB. Isso significa que as transações no BCH agora custam menos de um centavo e podem processar até 200 transações por segundo.
-O Bitcoin Cash usa um algoritmo de hash diferente do que usa o Bitcoin. Portanto, a repetição entre as duas cadeias não é mais possível.
-Como o Bitcoin Cash não está processando transações suficientes para preencher seu espaço de bloco extra, o tamanho do blockchain não cresceu exponencialmente, como foi previsto. O Bitcoin SV (BSV) - uma criptomoeda criada por meio de um fork do Bitcoin Cash - está procurando aumentar o tamanho do bloco para 1 TB e o tamanho de seu blockchain agora é muito maior que o do Bitcoin.
 O Bitcoin Cash é uma bifurcação do Bitcoin que oferece melhorias quanto ao tempo de processamento e taxas.
 A principal diferença entre as redes é o tamanho máximo de bloco permitido por cada rede, que no BCH é bem maior.
 O que permite a rede Bitcoin Cash lidar com muito mais transações por segundo e tempos de espera mais curtos, assim como taxas de processamento menores.
-Enquanto a taxa de transações no Bitcoin é de cerca de US$ 2,07, no Bitcoin Cash é de US$ 0,5.
-Bitcoin Cash também possui diversas funções adicionais, chamados de “opcodes”, entre comandos desativados no Bitcoin e funções novas acrescentadas.</br>
+Enquanto a taxa de transações no Bitcoin é de cerca de US$ 2,07, no Bitcoin Cash é de US$ 0,5. </br>
 
 <strong>Vantagens e Desvantagens:</strong></br>
 Transações mais rápidas e menos caras. Com um custo de transação de menos de um centavo e o potencial de processar mais de 100 transações por segundo, o Bitcoin Cash pode ser uma plataforma de pagamento viável. Ainda assim, a rede Visa processa 2.000 transações por segundo, então o Bitcoin Cash ainda tem um caminho a percorrer.
