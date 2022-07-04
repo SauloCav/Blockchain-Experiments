@@ -141,6 +141,9 @@ Um protocolo descentralizado de empréstimos.
 
 ## Prós e Contras
 
+### Prós
+
+### Contras
 
 ## Fantom e o Mercado
 ### Quantas Moedas Fantom (FTM) Há em Circulação
