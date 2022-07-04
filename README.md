@@ -143,3 +143,18 @@ Um protocolo descentralizado de empréstimos.
 
 
 ## Fantom e o Mercado
+### Quantas Moedas Fantom (FTM) Há em Circulação
+FTM é um token proof-of-stake (PoS) que existe em várias frentes.
+
+A compatibilidade da plataforma com o Ethereum significa que usuários podem comprar FTM no padrão ERC-20, que é automaticamente convertido ao nativo FTM, uma vez que for recebido na carteira. Outra versão do FTM está disponível na Binance Chain usando o padrão BEP2. Apenas o FTM nativo pode ser utilizado na própria mainnet OPERA do Fantom.
+
+O fornecimento total de FTM é de 3,175 bilhões de tokens, dos quais, 2.134.638.448 FTM estão em circulação no momento. O resto será liberado de acordo com um cronograma até 2023.
+
+Os Staking são uma parte importante do tokenomics, sendo uma parte do suprimento reservado especialmente para recompensas de staking para os usuários que possuem FTM.
+
+### Onde Comprar Fantom (FTM)
+O token do Fantom, o FTM, é livremente negociado e pode ser encontrado nas maiores corretoras como a Binance, Gate.io e OKEx Korea.
+
+O FTM existe em diversos protocolos, como ERC-20, BEP2 e, o do próprio Fantom, OPERA, todos com tokens em circulação.
+
+Se você é novo em criptomoedas e quer saber mais sobre como comprar Bitcoin (BTC) ou outros tokens, confira primeiro esta informação.
