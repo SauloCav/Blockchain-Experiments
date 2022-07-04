@@ -101,10 +101,45 @@ Para uma visão mais técnica e aprofundada do Lachesis, você pode conferir nos
 # Outras Características Importantes
 
 ## Avaliações e Uso
+O sucesso de Fantom pode ser melhor compreendido no contexto das chamadas “guerras de primeira camada”.
+
+O Ethereum é lento e caro de usar e continuará assim (considerando que a quantidade de atividade da rede continue a mesma) até que atualizações ao protocolo forem implementadas. Isso pode levar alguns anos.
+
+É tempo demais para pessoas que querem utilizar protocolos DeFi ao máximo atualmente, mas consideram apps DeFi nativos do Ethereum caros demais.
+
+Alguns desenvolvedores, como os responsáveis por Loopring, Arbitrum e Optimism, decidiram criar soluções de primeira e segunda camada para acelerar a experiência do Ethereum sem abrir mão da segurança da rede.
+
+Outras blockchains decidiram substituir Ethereum completamente (o Ethereum é conhecido como a camada base, primeira camada ou “L1”).
+
+Solana, Avalanche, Polkadot, Terra (tecnicamente, uma blockchain de aplicações do Cosmos) e Fantom são as líderes dessa corrida, apesar de todas as suas moedas nativas terem despencado bastante desde suas altas recordes.
+
+Dentre esses protocolos de primeira camada, LUNA, a moeda do Terra, é a maior, com uma capitalização de mercado de US$ 29 bilhões, seguida de Solana, com uma capitalização de US$ 26 bilhões. FTM está mais distante, com US$ 3,4 bilhões.
+
+Cada uma dessas blockchains é lar de sua própria indústria DeFi. Segundo dados do DeFi Llama, o mercado DeFi do Terra é o maior após o Ethereum.
+
+Atualmente, o Ethereum tem quase US$ 117 bilhões de valor total bloqueado (ou TVL) e Terra tem US$ 25,3 bilhões. Fantom, em sexto lugar, possui US$ 6,7 bilhões, perdendo para Solana, em quinto lugar, com US$ 7 bilhões.
 
 ## Serviços Fantom
+### Fantom Finance
+Permite a emissão de ativos sintéticos, staking de liquidez, tomada e concessão descentralizadas de empréstimos.
+
+### SpookySwap
+Um formador automatizado de mercado (ou AMM) descentralizado. É como um Uniswap, mas no Fantom. Seu token, para combinar com o nome “spooky” (“assustador”, em português), possui o código negociação “BOO”.
+
+### Multichain
+Um protocolo de roteamento entre blockchains.
+
+### Solidly
+Uma corretora descentralizada (ou DEX) com pouco “slippage” (diferença entre o preço esperado e o preço verdadeiro). Solidly foi criada por Andre Cronje, o criador do protocolo Yearn Finance (YFI).
+
+É operada com um modelo “(3,3)”, assim como a OlympusDAO. “(3,3)” é uma situação da teoria de jogos em que participantes sabem do cenário mais benéfico para todos e ou ganham juntos ou perdem juntos.
+
+Assim, na OlympusDAO, “(3,3)” representa a escolha de colocar tokens OHM em staking, obtendo recompensas de ajuste de base e removendo a oferta de tokens do mercado, beneficiando a próprio staker e a holders de OHM.
+
+### Geist Finance
+Um protocolo descentralizado de empréstimos.
 
 ## Prós e Contras
 
-## Fantom e o Mercado
 
+## Fantom e o Mercado
