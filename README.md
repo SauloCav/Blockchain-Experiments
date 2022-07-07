@@ -7,8 +7,6 @@ A implantação da rede principal do Fantom - Fantom Opera - é construída no m
 
 O Lachesis permite que o Fantom forneça velocidades de transação rápidas, baixos custos de transação e finalidade determinística. Isso é alcançado enquanto permanece sem permissão, descentralizado e de código aberto.
 
-O nascimento do Bitcoin em 2009 representou um grande passo em frente na tecnologia e mais um passo em direção a uma sociedade mais eficiente. No entanto, o Bitcoin não foi construído para escalar, e seu mecanismo de consenso – o mecanismo que alimenta o blockchain – é limitado pelo design.
-
 As soluções atuais fazem concessões entre três componentes: escalabilidade, segurança e descentralização. Isso é conhecido como o trilema blockchain.
 
 O Bitcoin, por exemplo, se concentra na descentralização e na segurança, o que o torna menos adequado para qualquer tipo de transação que exija velocidade e confirmação rápida, como pagamentos diários, transferência de dados, negociação de ativos ou outras transações nas quais consumidores e empresas confiam na vida cotidiana .
@@ -19,8 +17,6 @@ Descentralizar esses serviços em escala, ao mesmo tempo em que fornece seguran�
 A Fantom aborda o problema em sua essência: seu mecanismo de consenso de alta velocidade, Lachesis, permite que ativos digitais operem em velocidade sem precedentes e oferece melhorias dramáticas em relação aos sistemas atuais.
 
 Ao contrário de outras soluções, o Fantom não sacrifica a segurança e a descentralização em favor da escalabilidade.
-
-De fato, as vantagens trazidas pelo Fantom não são apenas desempenho puro; sua arquitetura modular permite total customização de blockchains para ativos digitais, com diferentes características adaptadas ao seu caso de uso.
 
 O Fantom também oferece níveis excepcionalmente altos de segurança usando um protocolo Proof-of-Stake sem líder para proteger a rede.
 
