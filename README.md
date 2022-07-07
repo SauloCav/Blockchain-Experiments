@@ -46,6 +46,25 @@ Sem líder: Nenhum participante desempenha um papel “especial”.
 Tolerante a falhas bizantinas: Suporta um terço dos nós defeituosos, incluindo comportamento malicioso.
 Final: A saída de Lachesis pode ser usada imediatamente. Não há necessidade de esperar por confirmações de bloqueio; as transações são confirmadas em 1-2 segundos.
 
+## Proof of Stake
+Proof of Stake (PoS) é o nome dado a um algoritmo de consenso para prevenção do gasto duplo, usado no processo de validação na rede de determinadas criptomoedas.
+
+Na tradução para o português, Proof of Stake significa “Prova de Participação”, e também é uma maneira de incentivar os usuários do universo de criptoativos a comprarem e negociarem as moedas que usam esse tipo de validação dentro de seu sistema de Blockchain. 
+
+Isso porque, através do Proof of Stake, os usuários que possuem as moedas na carteira virtual são necessários para a operação de validação das transações, e chegam a ser recompensados por isso.
+
+Como mencionado anteriormente, o estilo de trabalho Proof of Stake (PoS) pode ser um incentivo de negociação da moeda que o utiliza.
+
+Seu funcionamento consiste na escolha aleatória de usuários que possuem a moeda operante neste formato, para que estes validem transações de outros negociadores. 
+
+São vários usuários escolhidos ao mesmo tempo, e existe uma quantia mínima necessária em carteira para que os indivíduos sejam selecionados para as operações, de acordo com as regras de cada rede. 
+
+Embora ainda seja comumente chamado de “mineração”, dentro desse sistema, o bloco não é minerado, ele é construído.
+
+Para participar, o tempo em que a carteira está na carteira é considerado, além de ser necessário que os proprietários dos ativos os mantenham bloqueados na carteira por um determinado período, definido pela rede.
+
+Vale ressaltar que cada vez que um usuário é escolhido e sua carteira utilizada para a validação, a “idade das moedas” é “reiniciada”.
+
 ## Asynchronous Byzantine Fault Tolerance (aBFT)
 A tolerância a falhas bizantinas assíncronas é o mais alto padrão de algoritmos de consenso. Ele resolve o Trilema de Escalabilidade do blockchain, segundo o qual apenas dois dos três componentes a seguir são possíveis ao mesmo tempo:
 Descentralização
@@ -61,8 +80,7 @@ Ao contrário do pBFT, que se baseia no fato de que todas as mensagens compartil
 Por fim, as redes aBFT permitem maior escalabilidade e descentralização, pois não há comunicação excessiva para limitar o número de nós participantes.
 
 ## Lachesis consensus
-Lachesis é um algoritmo de consenso aBFT baseado em DAG que oferece melhorias tangíveis nos modelos Classical e Nakamoto.
-Lachesis é assíncrona, sem liderança e final, além de ser tolerante a falhas bizantinas.
+Lachesis é um algoritmo de consenso aBFT baseado em DAG que oferece melhorias tangíveis nos modelos Classical e Nakamoto. Lachesis é assíncrona, sem liderança e final, além de ser tolerante a falhas bizantinas.
 
 Lachesis é projetado para se conectar facilmente a aplicativos escritos em qualquer linguagem de programação. Os desenvolvedores podem se concentrar na construção da lógica do aplicativo e integrar o Lachesis para lidar com o aspecto de replicação da máquina de estado.
 
