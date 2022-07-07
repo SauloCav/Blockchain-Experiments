@@ -30,9 +30,15 @@ O consenso aBFT da Fantom, chamado Lachesis, é capaz de escalar para muitos nó
 # Mecanismo de Consenso
 O mecanismo de consenso é o núcleo das tecnologias distribuídas. Em um ambiente descentralizado, onde nenhuma entidade central valida as transações, o protocolo de consenso garante que todos os participantes da rede cheguem a um acordo: a rede como um todo valida as transações de forma totalmente confiável.
 
-Lachesis é o algoritmo de consenso aBFT do Fantom. Simplificando, um mecanismo de consenso é o mecanismo que alimenta o blockchain.
-Comparado ao consenso Classical e Nakamoto, Lachesis é uma escolha mais rápida, mais escalável e mais segura.
-Os desenvolvedores podem usar o Lachesis para criar aplicativos ponto a ponto sem precisar criar sua própria camada de rede.
+Fantom é garantido por Proof-of-Stake. Ao contrário do Proof-of-Work, usado pelo Bitcoin e Ethereum, o Proof-of-Stake evita a centralização e economiza eletricidade.
+
+Lachesis pode fornecer segurança de nível institucional para redes distribuídas. O Fantom oferece finalidade absoluta, o que significa que as transações nunca podem ser revertidas como em redes com finalidade probabilística.
+
+O mecanismo de consenso também pode ser dimensionado para centenas de nós, aumentando a descentralização e, portanto, a segurança.
+
+Por último, Lachesis não tem liderança. Ao remover líderes, a segurança não depende de um pequeno conjunto de atores.
+
+Lachesis é o algoritmo de consenso aBFT do Fantom. Simplificando, um mecanismo de consenso é o mecanismo que alimenta o blockchain. Comparado ao consenso Classical e Nakamoto, Lachesis é uma escolha mais rápida, mais escalável e mais segura. Os desenvolvedores podem usar o Lachesis para criar aplicativos ponto a ponto sem precisar criar sua própria camada de rede.
 
 Lachesis é:
 Assíncrono: Os participantes têm a liberdade de processar comandos em momentos diferentes.
@@ -67,8 +73,7 @@ Criamos Lachesis para superar as limitações dos algoritmos de consenso anterio
 No mundo acelerado de hoje, qualquer coisa que exija uma espera ou atraso de qualquer tipo simplesmente não seria usada.
 
 Lachesis remove a barreira para a criação de aplicativos rápidos e descentralizados que qualquer um pode usar.
-Se você está criando uma versão aprimorada de produtos existentes
-para setores como pagamentos, rastreamento da cadeia de suprimentos, armazenamento de dados de saúde e muito mais, ou revolucionando uma indústria emergente como DeFi, a Lachesis pode fazer tudo.
+Se você está criando uma versão aprimorada de produtos existentes para setores como pagamentos, rastreamento da cadeia de suprimentos, armazenamento de dados de saúde e muito mais, ou revolucionando uma indústria emergente como DeFi, a Lachesis pode fazer tudo.
 
 ## Como o Lachesis funciona
 Cada nó Lachesis armazena um grafo direcionado acíclico local (DAG) composto de blocos de eventos, cada um dos quais contém transações. O DAG, capturando o relacionamento acontecer antes entre os eventos, é usado para calcular uma ordem final exata dos eventos - e, portanto, das transações - independentemente em cada nó.
@@ -79,7 +84,7 @@ O consenso resulta em lotes de blocos de eventos confirmados, onde cada lote de 
 
 Ao contrário do Proof-of-Work, Proof-of-Stake round-robin, Proof-of-Stake de cunhagem e BFT de sincronização, os nós Lachesis não; enviar blocos uns aos outros. Apenas os eventos estão sendo sincronizados entre os nós. Os validadores não votam em um estado concreto da rede; em vez disso, eles trocam periodicamente transações e eventos observados com seus pares.
 
-Ao contrário do consenso clássico, como o pBFT, Lachesis não usa novos eventos na eleição atual; em vez disso, novos eventos são usados ​​para votar nos eventos em 2-3+ eleições virtuais anteriores simultaneamente. Isso leva a um número menor de mensagens de consenso criadas, pois o mesmo evento é reutilizado em diferentes eleições.
+Ao contrário do consenso clássico, como o pBFT, Lachesis não usa novos eventos na eleição atual; em vez disso, novos eventos são usados para votar nos eventos em 2-3+ eleições virtuais anteriores simultaneamente. Isso leva a um número menor de mensagens de consenso criadas, pois o mesmo evento é reutilizado em diferentes eleições.
 Assim, Lachesis atinge um menor tempo de finalização e uma menor sobrecarga de comunicação em comparação com o BFT síncrono.
 
 ## Épocas em Lachesis
@@ -142,8 +147,23 @@ Um protocolo descentralizado de empréstimos.
 ## Prós e Contras
 
 ### Prós
+- Fantom combina os melhores recursos de uma variedade de projetos independentes e os usa para construir uma plataforma impressionante.
+- FTM é como outros projetos e pode ser usado para staking, governança e pagamento de taxas na plataforma.
+- O Lachesis permite que o Fantom forneça velocidades de transação rápidas, baixos custos de transação e finalidade determinística. Isso é alcançado enquanto permanece sem permissão, descentralizado e de código aberto.
+- A Fantom aborda o problema em sua essência: seu mecanismo de consenso de alta velocidade, Lachesis, permite que ativos digitais operem em velocidade sem precedentes e oferece melhorias dramáticas em relação aos sistemas atuais.
+- De fato, as vantagens trazidas pelo Fantom não são apenas desempenho puro; sua arquitetura modular permite total customização de blockchains para ativos digitais, com diferentes características adaptadas ao seu caso de uso.
+- O Fantom também oferece níveis excepcionalmente altos de segurança usando um protocolo Proof-of-Stake sem líder para proteger a rede.
+- O consenso aBFT da Fantom, chamado Lachesis, é capaz de escalar para muitos nós ao redor do mundo em um ambiente aberto e sem permissão, proporcionando um bom grau de descentralização. Não usa Prova de Participação Delegada e não tem conceito de “Masternodes”.
+- Os desenvolvedores podem usar o Lachesis para criar aplicativos ponto a ponto sem precisar criar sua própria camada de rede.]
+- Lachesis é tolerante a falhas bizantinas: Suporta um terço dos nós defeituosos, incluindo comportamento malicioso.
+- Se você está criando uma versão aprimorada de produtos existentes para setores como pagamentos, rastreamento da cadeia de suprimentos, armazenamento de dados de saúde e muito mais, ou revolucionando uma indústria emergente como DeFi, a Lachesis pode fazer tudo.
+- Fantom tem uma equipe dedicada e profissional por trás disso.
+- Fantom é garantido por Proof-of-Stake. Ao contrário do Proof-of-Work, usado pelo Bitcoin e Ethereum, o Proof-of-Stake evita a centralização e economiza eletricidade.
 
 ### Contras
+- Há uma quantidade significativa de concorrência entre o Fantom e concorrentes como Ethereum, NEO, Hashgraph e outros.
+- A Internet das Coisas (IoT) é uma nova indústria que ainda está em suas fases iniciais, o que significa que os casos de uso do Fantom podem ser adiados.
+- Staking, empréstimo e empréstimo de FTM só podem ser feitos no site.
 
 ## Fantom e o Mercado
 ### Quantas Moedas Fantom (FTM) Há em Circulação
