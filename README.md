@@ -24,23 +24,12 @@ O consenso aBFT da Fantom, chamado Lachesis, é capaz de escalar para muitos nó
 
 
 # Mecanismo de Consenso
-O mecanismo de consenso é o núcleo das tecnologias distribuídas. Em um ambiente descentralizado, onde nenhuma entidade central valida as transações, o protocolo de consenso garante que todos os participantes da rede cheguem a um acordo: a rede como um todo valida as transações de forma totalmente confiável.
 
 Fantom é garantido por Proof-of-Stake. Ao contrário do Proof-of-Work, usado pelo Bitcoin e Ethereum, o Proof-of-Stake evita a centralização e economiza eletricidade.
 
 Lachesis pode fornecer segurança de nível institucional para redes distribuídas. O Fantom oferece finalidade absoluta, o que significa que as transações nunca podem ser revertidas como em redes com finalidade probabilística.
 
 O mecanismo de consenso também pode ser dimensionado para centenas de nós, aumentando a descentralização e, portanto, a segurança.
-
-Por último, Lachesis não tem liderança. Ao remover líderes, a segurança não depende de um pequeno conjunto de atores.
-
-Lachesis é o algoritmo de consenso aBFT do Fantom. Simplificando, um mecanismo de consenso é o mecanismo que alimenta o blockchain. Comparado ao consenso Classical e Nakamoto, Lachesis é uma escolha mais rápida, mais escalável e mais segura. Os desenvolvedores podem usar o Lachesis para criar aplicativos ponto a ponto sem precisar criar sua própria camada de rede.
-
-Lachesis é:
-Assíncrono: Os participantes têm a liberdade de processar comandos em momentos diferentes.
-Sem líder: Nenhum participante desempenha um papel “especial”.
-Tolerante a falhas bizantinas: Suporta um terço dos nós defeituosos, incluindo comportamento malicioso.
-Final: A saída de Lachesis pode ser usada imediatamente. Não há necessidade de esperar por confirmações de bloqueio; as transações são confirmadas em 1-2 segundos.
 
 ## Proof of Stake
 Proof of Stake (PoS) é o nome dado a um algoritmo de consenso para prevenção do gasto duplo, usado no processo de validação na rede de determinadas criptomoedas.
@@ -49,11 +38,7 @@ Na tradução para o português, Proof of Stake significa “Prova de Participa�
 
 Isso porque, através do Proof of Stake, os usuários que possuem as moedas na carteira virtual são necessários para a operação de validação das transações, e chegam a ser recompensados por isso.
 
-Como mencionado anteriormente, o estilo de trabalho Proof of Stake (PoS) pode ser um incentivo de negociação da moeda que o utiliza.
-
 Seu funcionamento consiste na escolha aleatória de usuários que possuem a moeda operante neste formato, para que estes validem transações de outros negociadores. 
-
-São vários usuários escolhidos ao mesmo tempo, e existe uma quantia mínima necessária em carteira para que os indivíduos sejam selecionados para as operações, de acordo com as regras de cada rede. 
 
 Embora ainda seja comumente chamado de “mineração”, dentro desse sistema, o bloco não é minerado, ele é construído.
 
@@ -78,11 +63,7 @@ Lachesis é um algoritmo de consenso aBFT baseado em DAG que oferece melhorias t
 
 Lachesis é projetado para se conectar facilmente a aplicativos escritos em qualquer linguagem de programação. Os desenvolvedores podem se concentrar na construção da lógica do aplicativo e integrar o Lachesis para lidar com o aspecto de replicação da máquina de estado.
 
-Lachesis se conecta a outros nós Lachesis e garante que todos processem os mesmos comandos na mesma ordem. Para fazer isso, ele usa rede ponto a ponto e um algoritmo de consenso DAG aBFT.
-
 ## Por que Lachesis
-Criamos Lachesis para superar as limitações dos algoritmos de consenso anteriores. Na verdade, é a opção ideal para aplicativos que precisam de alto rendimento, rapidez e segurança de nível bancário.
-No mundo acelerado de hoje, qualquer coisa que exija uma espera ou atraso de qualquer tipo simplesmente não seria usada.
 
 Lachesis remove a barreira para a criação de aplicativos rápidos e descentralizados que qualquer um pode usar.
 Se você está criando uma versão aprimorada de produtos existentes para setores como pagamentos, rastreamento da cadeia de suprimentos, armazenamento de dados de saúde e muito mais, ou revolucionando uma indústria emergente como DeFi, a Lachesis pode fazer tudo.
@@ -95,25 +76,6 @@ Os blocos de eventos são divididos em blocos de eventos confirmados e não conf
 O consenso resulta em lotes de blocos de eventos confirmados, onde cada lote de eventos é chamado de bloco. Blocos finalizados que formam a cadeia final são calculados a partir de blocos de eventos independentemente em cada nó.
 
 Ao contrário do Proof-of-Work, Proof-of-Stake round-robin, Proof-of-Stake de cunhagem e BFT de sincronização, os nós Lachesis não; enviar blocos uns aos outros. Apenas os eventos estão sendo sincronizados entre os nós. Os validadores não votam em um estado concreto da rede; em vez disso, eles trocam periodicamente transações e eventos observados com seus pares.
-
-Ao contrário do consenso clássico, como o pBFT, Lachesis não usa novos eventos na eleição atual; em vez disso, novos eventos são usados para votar nos eventos em 2-3+ eleições virtuais anteriores simultaneamente. Isso leva a um número menor de mensagens de consenso criadas, pois o mesmo evento é reutilizado em diferentes eleições.
-Assim, Lachesis atinge um menor tempo de finalização e uma menor sobrecarga de comunicação em comparação com o BFT síncrono.
-
-## Épocas em Lachesis
-A estrutura de eventos de Lachesis é um DAG de eventos. Para otimizar o armazenamento e a recuperação, o DAG é separado em sub-DAGs, cada um deles é chamado de época. Cada época compreende muitos blocos finalizados.
-
-Cada época é selada quando uma destas condições é satisfeita:
-
-A época atinge um número definido de blocos
-A época dura por um tempo especificado
-Pelo menos um trapaceiro está confirmado neste bloco
-A vedação de época é solicitada pelo contrato NodeDriver
-Quando uma época é selada, seus índices de época internos são removidos e novos eventos das épocas seladas são ignorados. Cada época forma um DAG separado e, portanto, pais de outras épocas não são permitidos.
-
-Para uma verificação de sanidade, cada evento inclui o hash da época anterior.
-
-Para uma visão mais técnica e aprofundada do Lachesis, você pode conferir nosso Wiki no GitHub.
-
 
 # Outras Características Importantes
 
