@@ -69,13 +69,19 @@ Lachesis remove a barreira para a criação de aplicativos rápidos e descentral
 Se você está criando uma versão aprimorada de produtos existentes para setores como pagamentos, rastreamento da cadeia de suprimentos, armazenamento de dados de saúde e muito mais, ou revolucionando uma indústria emergente como DeFi, a Lachesis pode fazer tudo.
 
 ## Como o Lachesis funciona
-Cada nó Lachesis armazena um grafo direcionado acíclico local (DAG) composto de blocos de eventos, cada um dos quais contém transações. O DAG, capturando o relacionamento acontecer antes entre os eventos, é usado para calcular uma ordem final exata dos eventos - e, portanto, das transações - independentemente em cada nó.
+“Cada nó Lachesis armazena um grafo direcionado acíclico local (DAG) composto de blocos de eventos, cada um dos quais contém transações. O DAG, capturando o relacionamento acontecer antes entre os eventos, é usado para calcular uma ordem final exata dos eventos – e, portanto, das transações – independentemente em cada nó.
 
-Os blocos de eventos são divididos em blocos de eventos confirmados e não confirmados. Novos blocos de eventos não são confirmados, enquanto os blocos de eventos dos últimos 2-3 quadros são todos confirmados e posteriormente ordenados por nós honestos.
+“Os blocos de eventos são divididos em blocos de eventos confirmados e não confirmados. Novos blocos de eventos não são confirmados, enquanto os blocos de eventos dos últimos 2-3 quadros são todos confirmados e posteriormente ordenados por nós honestos.
 
-O consenso resulta em lotes de blocos de eventos confirmados, onde cada lote de eventos é chamado de bloco. Blocos finalizados que formam a cadeia final são calculados a partir de blocos de eventos independentemente em cada nó.
+“O consenso resulta em lotes de blocos de eventos confirmados, onde cada lote de eventos é chamado de bloco. Blocos finalizados que formam a cadeia final são calculados a partir de blocos de eventos independentemente em cada nó.
 
-Ao contrário do Proof-of-Work, Proof-of-Stake round-robin, Proof-of-Stake de cunhagem e BFT de sincronização, os nós Lachesis não; enviar blocos uns aos outros. Apenas os eventos estão sendo sincronizados entre os nós. Os validadores não votam em um estado concreto da rede; em vez disso, eles trocam periodicamente transações e eventos observados com seus pares.
+“Ao contrário de Proof-of-Work, Proof-of-Stake round-robin, Proof-of-Stake de cunhagem e BFT de sincronização, os nós Lachesis não enviam blocos uns para os outros. Apenas os eventos estão sendo sincronizados entre os nós. Os validadores não votam em um estado concreto da rede; em vez disso, eles trocam periodicamente transações e eventos observados com seus pares.
+
+“Ao contrário do consenso clássico, como o pBFT, Lachesis não usa novos eventos na eleição atual; em vez disso, novos eventos são usados ​​para votar nos eventos em 2-3+ eleições virtuais anteriores simultaneamente. Isso leva a um número menor de mensagens de consenso criadas, pois o mesmo evento é reutilizado em diferentes eleições.
+
+Assim, o Lachesis alcança um tempo menor para finalização e menor sobrecarga de comunicação em comparação com o BFT síncrono.”
+
+Com isso, você pode ver por que é totalmente descentralizado, seguro e ainda tão rápido em cerca de 700.000 transações por dia. É mais democrático com pouca interferência.
 
 # Outras Características Importantes
 
