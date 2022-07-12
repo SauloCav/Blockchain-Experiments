@@ -71,8 +71,6 @@ Um protocolo de consenso aBFT permite máxima descentralização, alta escalabil
 Em uma rede aBFT, os nós podem chegar a um consenso independentemente de transmitir essas informações e não precisam trocar blocos finalizados.
 Por esta razão, os mecanismos de consenso aBFT são completamente sem liderança, aumentando a segurança: não há round-robin e nenhuma prova de trabalho.
 
-Ao contrário do pBFT, que se baseia no fato de que todas as mensagens compartilhadas entre os nós serão eventualmente entregues, o aBFT permite que as mensagens sejam atrasadas ou perdidas por completo. Além de tornar as redes particularmente resistentes a ataques DDoS, o aBFT também reduz a latência da transação, resultando em uma rede mais rápida.
-
 Por fim, as redes aBFT permitem maior escalabilidade e descentralização, pois não há comunicação excessiva para limitar o número de nós participantes.
 
 ## Lachesis consensus
